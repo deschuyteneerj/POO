@@ -9,7 +9,6 @@ if(isset($_POST['title'],$_POST['content'])){
 }
 
 if($_POST['submitDelete']=='delete'){
-    echo 'yo';
     foreach($_POST['delete'] as $post){
         Post::removePost($post);
     }

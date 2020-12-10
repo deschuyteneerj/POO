@@ -44,7 +44,13 @@ class Car
     }
 
     public function checkDecay($mileage){
-        intval($mileage) < 100000 ? $this->decay = "Low" : intval($mileage) < 200000 ? $this->decay = "Middle" : $this->decay = "High";
+        if (intval($mileage < 100000)){
+            $this->decay = "Low";
+        } else if (intval($mileage) >= 100001 && intval($mileage) < 200000){
+            $this->decay = "Middle";
+        } else {
+            $this->decay = "High";
+        }
     }
 
     public function checkAge($dateOfCirculation){

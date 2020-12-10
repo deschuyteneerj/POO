@@ -22,7 +22,7 @@ $car2->setImage("https://www.cars-data.com/pictures/thumbs/350px/honda/honda-int
 $car3 = new Car("BE 1CCC999", "01/01/2010", 250000, "Mulsanne", "Bentley", "Dark Grey", 3200);
 $car3->setImage("https://www.cars-data.com/pictures/thumbs/350px/bentley/bentley-mulsanne_233_5.jpg");
 
-$car4 = new Car("BE 1AAA999", "01/01/2013", 90000, "A3", "Audi", "Grey", 1400);
+$car4 = new Car("FR AA999AA", "01/01/2013", 90000, "A3", "Audi", "Grey", 1400);
 $car4->setImage("https://www.cars-data.com/webp/thumbs/350px/audi/audi-a3_3704_11.webp");
 
 $car5 = new Car("FR BB999BB", "01/01/1998", 190000, "Integra R", "Honda", "White", 1136);
